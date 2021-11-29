@@ -8,7 +8,7 @@ dialog: angular-magnolia-int:pages/home
 
 areas:
   header:
-    title: Single Area
+    title: Single Area 1
     type: single
     availableComponents:
       navigation:
