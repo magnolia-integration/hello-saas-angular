@@ -1,0 +1,7 @@
+# Configure how Magnolia CMS uses this repository.
+
+# Directory from which to load configuration.
+modules: /light-modules
+
+# Directory from which to load content at install.
+content: /sample-content

@@ -1,0 +1,29 @@
+# templateScript: /angular-magnolia-int/webresources/build/index.html
+baseUrl: http://localhost:4200/
+routeTemplate: '{{@path}}'
+renderType: spa
+visible: true
+class: info.magnolia.rendering.spa.renderer.ConfiguredSpaRenderableDefinition
+dialog: angular-magnolia-int:pages/home
+
+areas:
+  header:
+    title: Single Area
+    type: single
+    availableComponents:
+      navigation:
+        id: angular-magnolia-int:components/navigation
+  mainArea:
+    title: Main Area
+    availableComponents:
+      alert:
+        id: angular-magnolia-int:components/alert
+  staticArea:
+    dialog: angular-magnolia-int:areas/static
+    title: Static Area
+    type: noComponent
+  customArea:
+    title: Custom Area
+    availableComponents:
+      card:
+        id: angular-magnolia-int:components/card
