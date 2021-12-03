@@ -1,4 +1,5 @@
-const SERVER = 'http://localhost:8080';
+const SERVER = 'https://author-k16qgl17ff2uev8y.saas.magnolia-cloud.com';
+// const SERVER = 'http://localhost:8080';
 const SERVER_PATH = '';
 
 export const environment = {

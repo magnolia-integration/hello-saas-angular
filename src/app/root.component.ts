@@ -55,11 +55,14 @@ export class RootComponent {
     // request the template annotations
     this.http.get(environment.templateAnnotationsBase + path).subscribe(annotations => {
       this.editorContext.setTemplateAnnotations(annotations);
+      console.log("got annotations")
     });
     // request the content itself
     this.http.get(`${version ? environment.restPreviewUrlBase : environment.restUrlBase}${path}${searchQuery}`)
         .subscribe(content => {
         this.content = content;
+        //this.editorContext.refresh()
+        console.log("got content")
     });
   }
 
