@@ -1,4 +1,13 @@
-!include:/angular-magnolia-int/templates/pages/home.yaml
+# !include:/angular-magnolia-int/templates/pages/home.yaml
+# templateScript: /angular-magnolia-int/webresources/build/index.html
+baseUrl: http://localhost:4200/
+routeTemplate: '{{@path}}'
+renderType: spa
+visible: true
+class: info.magnolia.rendering.spa.renderer.ConfiguredSpaRenderableDefinition
+dialog: angular-magnolia-int:pages/home
+
+
 areas:
   mainArea:
     availableComponents:
