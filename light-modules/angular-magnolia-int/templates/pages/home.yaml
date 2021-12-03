@@ -6,6 +6,8 @@ visible: true
 class: info.magnolia.rendering.spa.renderer.ConfiguredSpaRenderableDefinition
 dialog: angular-magnolia-int:pages/home
 
+enabled: false
+
 areas:
   header:
     title: Single Area 1
